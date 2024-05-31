@@ -32,7 +32,7 @@ const index = ( req,res )=>{
             });
         }else
         {
-            res.status(404).send('Event non trovato');
+            res.status(404).send('Evento non trovato');
         }
         
     } else{
@@ -67,5 +67,4 @@ module.exports = {
     index,
     store,
     events,
-    show
 }
