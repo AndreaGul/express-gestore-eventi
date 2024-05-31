@@ -1,3 +1,4 @@
+const modelEvents = require('../models/events');
 
 const index = ( req,res )=>{
     res.send('<h1>Sei nell\'index</h1>')};
