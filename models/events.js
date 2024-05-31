@@ -36,16 +36,18 @@ class events {
 
 }
 
-
+module.exports = {
+    events,
+}
 
 // Creazione delle istanze degli eventi
 const event1 = new events(1, 'Concerto Rock', 'Concerto di musica rock', '2024-06-15', 200);
 const event2 = new events(2, 'Festival del Cinema', 'Proiezione di film indipendenti', '2024-07-20', 150);
 const event3 = new events(3, 'Conferenza Tech', 'Discussione sulle ultime novità tecnologiche', '2024-08-10', 300);
 
-// Salvataggio degli eventi nel file JSON
-events.save(event1);
-events.save(event2);
-events.save(event3);
+// // Salvataggio degli eventi nel file JSON
+// events.save(event1);
+// events.save(event2);
+// events.save(event3);
 
-console.log(events.getAllEvents());
+// console.log(events.getAllEvents());
